@@ -21,6 +21,13 @@ Execute the following command to run the model for Aspect Extraction task:
 
 Here, ```laptop_pt``` is the post-trained weights for laptop, ```laptop``` is the domain, ```pt_ae``` is the fine-tuned folder in ```run/```, ```9``` means run 9 times and ```0``` means use gpu-0.
 
+Similarly, Install the following
+```
+pip install torch
+pip install boto3
+pip install TorchCRF
+pip install pytorch-crf
+```
 Similarly,
 ```
 bash run_absa.sh ae rest_pt rest pt_ae 9 0
